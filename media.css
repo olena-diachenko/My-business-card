@@ -1,0 +1,96 @@
+@media only screen and (min-width: 744px) {
+  .card-social span {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #container {
+    height: 100%;
+  }
+
+  .card {
+    width: 838px;
+    height: 449px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .card-img {
+    width: 50%;
+    height: 385px;
+    margin: 0;
+  }
+
+  .card-info {
+    width: 50%;
+  }
+
+  .card-name {
+    font-size: 45px;
+    line-height: 53px;
+    text-align: left;
+  }
+
+  .card-position {
+    font-size: 30px;
+    line-height: 35px;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .card-social {
+    display: block;
+  }
+
+  .card-social a {
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .card-social-link {
+    cursor: pointer;
+    width: 50px;
+  }
+
+  .card-social-link:hover {
+    animation: shake 2s;
+  }
+
+  @keyframes shake {
+    0%,
+    50%,
+    100% {
+      transform: rotate(0deg);
+    }
+
+    10%,
+    30% {
+      transform: rotate(-10deg);
+    }
+
+    20%,
+    40% {
+      transform: rotate(10deg);
+    }
+  }
+
+  .card-social a:hover span {
+    color: rgb(202, 9, 9);
+  }
+
+  .card-social span {
+    display: block;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000;
+    margin-left: 18px;
+  }
+}
